@@ -4,9 +4,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 <title>LOGIN</title>
 </head>
 <body>
-<s:property value="username"/>さん、ようこそ！
+<s:property value="LoginDTOList.get(0).username"/>さん、ようこそ！
+<br>
+<table>
+<tbody>
+<tr>
+<th>USERNAME</th>
+<th>PASSWORD</th>
+</tr>
+<s:iterator value="LoginDTOList">
+<tr>
+<td><s:property value="username"/></td>
+<td><s:property value="password"/></td>
+</tr>
+</s:iterator>
+</tbody>
+</table>
 </body>
 </html>

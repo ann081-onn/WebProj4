@@ -5,4 +5,4 @@
  * @author anon.u
  *
  */
-package com.diworksdev.webproj3.dto;
+package com.diworksdev.webproj4.dto;

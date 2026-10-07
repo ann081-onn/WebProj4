@@ -1,4 +1,4 @@
-package com.diworksdev.webproj3.action;
+package com.diworksdev.webproj4.action;
 import com.opensymphony.xwork2.ActionSupport;
 public class WelcomeAction
 extends ActionSupport{

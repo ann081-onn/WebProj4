@@ -1,4 +1,4 @@
-package com.diworksdev.webproj3.util;
+package com.diworksdev.webproj4.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

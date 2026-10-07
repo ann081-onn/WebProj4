@@ -1,4 +1,4 @@
-package com.diworksdev.webproj3.dto;
+package com.diworksdev.webproj4.dto;
 public class LoginDTO {
 private String username;
 private String password;

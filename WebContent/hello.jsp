@@ -4,11 +4,29 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 <title>HelloStruts</title>
 </head>
 <body>
 <h1>HelloStruts2!</h1>
 <br>
-<h3><s:property value="result" /></h3>
+<table>
+<tbody>
+<tr>
+<th>USERID</th>
+<th>USERNAME</th>
+<th>PASSWORD</th>
+<th>RESULT</th>
+</tr>
+<s:iterator value="helloStrutsDTOList">
+<tr>
+<td><s:property value="userId"/></td>
+<td><s:property value="userName"/></td>
+<td><s:property value="password"/></td>
+<td><s:property value="result"/></td>
+</tr>
+</s:iterator>
+</tbody>
+</table>
 </body>
 </html>

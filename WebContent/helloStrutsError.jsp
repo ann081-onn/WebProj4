@@ -10,6 +10,5 @@ pageEncoding="UTF-8"%>
 <body>
 <h1>エラーが発生しました</h1>
 <br>
-<h3><s:property value="result" /></h3>
 </body>
 </html>
